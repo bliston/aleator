@@ -1,7 +1,7 @@
 {
-  "name": "counterpoint",
+  "name": "canon",
   "version": "0.1.0",
-  "description": "Generate interesting and well balanced species counterpoint (music!)",
+  "description": "Generate interesting and well balanced canons (music!)",
   "main": "./lib/index.js",
   "directories": {
     "test": "tests"
@@ -14,24 +14,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jrleszcz/counterpoint.git"
+    "url": "https://github.com/bliston/canon.git"
   },
   "keywords": [
-    "counterpoint",
-    "species counterpoint",
+    "canon",
+    "round",
     "music",
     "music composition"
   ],
   "author": {
-    "name": "John Leszczynski",
-    "email": "jrleszczynski@gmail.com",
-    "url": "http://johnleszczynski.com"
+    "name": "Brandon Liston",
+    "email": "brandon.g.liston@gmail.com",
+    "url": "http://songwish.ca"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jrleszcz/counterpoint/issues"
+    "url": "https://github.com/bliston/canon/issues"
   },
-  "homepage": "https://github.com/jrleszcz/counterpoint#readme",
+  "homepage": "https://github.com/bliston/canon#readme",
   "devDependencies": {
     "faucet": "0.0.1",
     "jsdoc-to-markdown": "^1.1.1",
