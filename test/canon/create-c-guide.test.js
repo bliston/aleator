@@ -1,8 +1,8 @@
 var test = require('tape')
-var createCFguide = require('../../lib/cantus-firmus/create-cf-guide.js')
+var createCguide = require('../../lib/canon/create-c-guide.js')
 
-test('createCFguide', function (t) {
-  var guide = createCFguide('D minor', 6, 13)
+test('createCguide', function (t) {
+  var guide = createCguide('D minor', 6, 13)
 
   t.equal(guide.tonic(), 'D')
   t.deepEqual(guide.choices(), ['D'])

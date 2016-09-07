@@ -1,10 +1,10 @@
 var test = require('tape')
 var MusicMachine = require('music-machine')
-var cfGrammar = require('../../../lib/cantus-firmus/grammar/cf-grammar.js')
-var patternFilter = require('../../../lib/cantus-firmus/grammar/pattern-filter.js')
+var cGrammar = require('../../../lib/canon/grammar/c-grammar.js')
+var patternFilter = require('../../../lib/canon/grammar/pattern-filter.js')
 
 test('patternFilter', function (t) {
-  var machine = new MusicMachine(cfGrammar, 'Start')
+  var machine = new MusicMachine(cGrammar, 'Start')
   var guide = machine.createGuide()
   guide.choose(['C4', 'D4', 'C4'])
   t.deepEqual(guide.choices().sort(),

@@ -1,7 +1,7 @@
 {
-  "name": "canon",
+  "name": "aleator",
   "version": "0.1.0",
-  "description": "Generate interesting and well balanced canons (music!)",
+  "description": "Generate interesting and well balanced musical forms including cantus firmus and canons (music!)",
   "main": "./lib/index.js",
   "directories": {
     "test": "tests"
@@ -14,9 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bliston/canon.git"
+    "url": "https://github.com/bliston/aleator.git"
   },
   "keywords": [
+    "counterpoint",
+    "cantus firmus",
     "canon",
     "round",
     "music",
@@ -29,9 +31,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bliston/canon/issues"
+    "url": "https://github.com/bliston/aleator/issues"
   },
-  "homepage": "https://github.com/bliston/canon#readme",
+  "homepage": "https://github.com/bliston/aleator#readme",
   "devDependencies": {
     "faucet": "0.0.1",
     "jsdoc-to-markdown": "^1.1.1",

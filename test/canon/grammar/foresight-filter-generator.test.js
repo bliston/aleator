@@ -1,10 +1,10 @@
 var test = require('tape')
 var MusicMachine = require('music-machine')
-var cfGrammar = require('../../../lib/cantus-firmus/grammar/cf-grammar.js')
-var foresightFilter = require('../../../lib/cantus-firmus/grammar/foresight-filter-generator.js')
+var cGrammar = require('../../../lib/canon/grammar/c-grammar.js')
+var foresightFilter = require('../../../lib/canon/grammar/foresight-filter-generator.js')
 
 test('foresightFilterGenerator', function (t) {
-  var machine = new MusicMachine(cfGrammar, 'Start')
+  var machine = new MusicMachine(cGrammar, 'Start')
 
   // guide to test outline length limit
   var guide = machine.createGuide('C major')

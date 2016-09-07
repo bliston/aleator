@@ -1,11 +1,11 @@
 var test = require('tape')
-var cfMachine = require('../../lib/cantus-firmus/cf-machine.js')
+var cMachine = require('../../lib/canon/c-machine.js')
 var MusicMachine = require('music-machine')
 
-test('createCFmachine', function (t) {
-  t.true(cfMachine instanceof MusicMachine)
+test('createCmachine', function (t) {
+  t.true(cMachine instanceof MusicMachine)
 
-  var guide = cfMachine.createGuide()
+  var guide = cMachine.createGuide()
   t.deepEqual(guide.choices(),
    [ 'C' ])
   guide.choose('C4')

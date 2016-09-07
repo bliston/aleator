@@ -1,10 +1,10 @@
 var test = require('tape')
 var MusicMachine = require('music-machine')
-var cfGrammar = require('../../../lib/cantus-firmus/grammar/cf-grammar.js')
-var noLeapBackFilter = require('../../../lib/cantus-firmus/grammar/no-leap-back-filter.js')
+var cGrammar = require('../../../lib/canon/grammar/c-grammar.js')
+var noLeapBackFilter = require('../../../lib/canon/grammar/no-leap-back-filter.js')
 
 test('noLeapBackFilter', function (t) {
-  var machine = new MusicMachine(cfGrammar, 'Start')
+  var machine = new MusicMachine(cGrammar, 'Start')
   var guide = machine.createGuide()
   guide.choose(['C4', 'E4'])
   t.deepEqual(guide.choices().sort(),
